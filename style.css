@@ -1,19 +1,54 @@
+/* Universal styles */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: rgb(197, 68, 209);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 body{
     font-family: 'Lato', sans-serif;
 }
-header{
-    background: rgb(250, 230, 250);
+
+section{
+    margin: 0 auto;
+    max-width: 75%;
+}
+.common-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
+
+/* some common background colors */
+.bg-1{
+    background: rgb(250, 230, 250);
+}
+.bg-2{
+    background: rgb(231, 231, 253);
+}
+.bg-3{
+    background: rgb(212, 241, 207);
+}
+.bg-4{
+    background: rgb(255, 231, 215);
+}
+
+
+/* header related styles starts from here */
 .header-container{
     margin: auto;
-    width: 75%;
+    max-width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,24 +58,46 @@ header{
     font-weight: 800;
 }
 .header-desc{
-    width: 450px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
     padding: 25px 0;
+    width: 450px;
 }
 .header-img > img{
     margin-top: 60px;
     width: 400px;
 }
-.btn{
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: rgb(197, 68, 209);
-    color:white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+
+/* feature related styles starts from here */
+
+.feature{
+    text-align: center;
+    margin-top: 80px;
 }
+.feature-desc{
+    padding: 20px 0;
+}
+.card-container{
+    display: flex; 
+    justify-content: space-between;
+    gap:20px;  
+}
+.card{
+    border-radius: 170px 170px 0 0;
+    width: 350px;
+    height: 450px;
+}
+.card-img{
+    border-radius: 170px 170px 0 0;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 210px; 
+}
+.card-title{
+    margin-top: 20px;
+}
+
+
+
 
