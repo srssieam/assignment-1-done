@@ -161,6 +161,52 @@ body{
     width: 220px;
 }
 
+/* customer review related styles */
+.customer{
+    margin-top: 60px;
+    text-align: center;
+}
+.customer h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comment-container{
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.right-div{
+    width: 50%;
+    display: flex;
+}
+.right-div p{
+    text-align: right;
+}
+.left-div {
+    width: 50%;
+    display: flex;
+}
+.left-div p{
+    text-align: left;
+}
+
+.customer-img-left, .customer-img-right{
+    width: 70px;
+}
+.customer-img-left{
+    margin-right: 30px;
+}
+.customer-img-right{
+    margin-left: 30px;
+}
+
 
 
 
