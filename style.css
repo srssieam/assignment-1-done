@@ -18,16 +18,17 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-section{
+.common-width{
     margin: 0 auto;
     max-width: 75%;
 }
 .common-desc{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.781);
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
 }
+
 
 
 /* some common background colors */
@@ -43,7 +44,6 @@ section{
 .bg-4{
     background: rgb(255, 231, 215);
 }
-
 
 /* header related styles starts from here */
 .header-container{
@@ -106,6 +106,7 @@ section{
     align-items: center;
     height: 200px;
     text-align: center;
+    margin-top: 30px;
 }
 .service > img{
     width: 60px;
@@ -115,6 +116,52 @@ section{
     font-weight: 700;
     margin-top: 15px;
 }
+
+/* banner related styles */
+.banner{
+    height: 380px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h2{
+    font-size: 35px;
+}
+.banner-content span{
+    color:rgb(233, 22, 85);
+}
+.banner-desc{
+    margin: 20px 0;
+}
+
+/* Insta related styles */
+.insta{
+    text-align: center;
+    margin-top: 100px;
+}
+.insta p{
+    margin: 20px 0;
+}
+.f-photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.f-photos img{
+    width: 220px;
+}
+
+
 
 
 
