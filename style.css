@@ -207,6 +207,35 @@ body{
     margin-left: 30px;
 }
 
+/* subscribe related styles */
+.subscribe{
+    margin-top: 80px;
+    background: url("./Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+.subscribe-content h2{
+    font-size: 30px;
+}
+.subscribe-content p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+.subscribe-content input[type="email"]{
+    border: none;
+    border-radius: 10px;
+    padding: 18px;
+    width: 420px;
+    margin-right: 10px;
+}
+
 
 
 
