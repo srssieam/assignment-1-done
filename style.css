@@ -91,12 +91,32 @@ section{
     display: flex;
     justify-content: center;
 }
-img{
+.card-img > img{
     width: 210px; 
 }
 .card-title{
     margin-top: 20px;
 }
+
+/* service related styles */
+.service-container{
+    background: rgb(232, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+}
+.service > img{
+    width: 60px;
+}
+.service > p{
+    color: rgba(44, 43, 43, 0.747);
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+
 
 
 
